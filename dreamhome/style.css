@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: beige;
+}
+#navbar{
+    height: 80px;
+    width: 1705px;
+    margin: 3px;
+    position: sticky;
+    top: 0px;
+    background-color: black;
+    position: relative;
+    border-radius: 10px;
+    transition: 1s;
+
+    
+
+}
+#navbar:hover{
+    background-color: rgb(5, 46, 127);
+    /* background-image: linear-gradient (blue, aqua, aquamarine); */
+}
+#dhome{
+    color: white;
+    font-family: "Lacquer", system-ui;
+  font-weight: 400;
+  font-style: normal;
+    position: absolute;
+    top: 30% ;
+    margin-left: 60px;
+
+
+}
+a{
+    margin: 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 35%;
+    left: 15%;
+    transition: 0.1s;
+}
+a:hover{
+    /* transition: 0.1s; */
+    color: salmon;
+
+    
+}
+
+#card{
+    height: 600px;
+    width: 400px;
+    /* border: 2px solid black; */
+    margin-top: 5%;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+    background-image: linear-gradient(aqua, aquamarine);
+}
+#card:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: 0.4s;
+    border: 2px solid yellow;
+}
+
+#cardimage img{
+    height: 40%;
+    width: 100%;
+    /* border-top-left-radius: 15px;
+    border-top-right-radius: 15px; */
+    /* position: relative; */
+    
+}
+
+#forsale{
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    font-family: sans-serif;
+
+}
+
+#like{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+
+}
+#price{
+    position: absolute;
+    top: 230px;
+    left: 5px;
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+
+}
+#price:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
+#housename{
+    font-family: sans-serif;
+    font-size: 22px;
+    position: relative;
+    /* right: 70px; */
+    top: 20px;
+    margin: 10px;
+} 
+
+.info{
+    position: relative;
+    top: 60px;
+    margin: 10px;
+    /* right: 130px; */
+}
+
+#detailsbutton{
+    background-color: rgb(84, 134, 234);
+    color: white;
+    width: 130px;
+    height: 30px;
+    position: absolute;
+    bottom: 40px;
+    left: 35%;
+    border: none;
+    border-radius: 15px;
+
+    
+}
+
+#detailsbutton:hover{
+    background-color: yellowgreen;
+    color: white;
+    transition: 0.2s;
+}
+
+#contact{
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(10, 199, 10);
+    color: white;
+    font-size: 18px;
+}
