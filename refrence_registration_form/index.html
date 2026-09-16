@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav>
+        <center>
+        <div id="navbar">
+            <h1 id="tech">Tech</h1><h1 id="conf">Conf</h1>
+            <a href="#">Home</a>
+            <a href="#">Speakers</a>
+            <a href="#">Schedule</a>
+            <a href="#">Register</a>
+
+            <button id="rn">Register Now</button>
+
+        </div>
+        </center>
+    </nav>
+    <div id="formheading">
+        <center><h3 id="rheading"> REGISTER NOW</h3></center>
+        <center><h1 id="confreg">Conference Registration</h1></center>
+        <center><div id="underline"><hr></div></center>
+        <center><h3 id="info"> Fill in the details below to secure your spot at Tech Conference 2026.</h3></center>
+    </div>
+    
+    <div id="formbox">
+        <center>
+        <form>
+            <div>
+            <div id="personalinfo">
+                <h2 id="persinfo" class="boxheadings">Personal Information</h2>
+                <h4 id="fname" class="commonheadings">Full Name <sup class="star"> *</sup></h4>
+                <input type="name" id="namebox" class="entryboxes"  placeholder="Enter your Full Name">
+                <h4 id="email" class="commonheadings">Email <sup class="star"> *</sup></h4>
+                <input type="email" id="mailbox" class="entryboxes"  placeholder="Enter your Email">
+                <h4 id="phone" class="commonheadings">Phone <sup class="star"> *</sup></h4>
+                <input type="number" id="phonebox" class="entryboxes"  placeholder="+91 XXXXXXXXXX">
+                <h4 id="dob" class="commonheadings">Date of Birth <sup class="star"> *</sup></h4>
+                <input type="date" id="dbox" class="entryboxes" >
+                
+                <h4 id="gender" class="commonheadings">Gender <sup class="star"> *</sup></h4>
+                <center>
+                <input type="radio" name="Gender" class="rad" id="male">
+                <label for="male" class="gfont">Male</label>
+                <input type="radio" name="Gender" class="rad" id="female">
+                <label for="female" class="gfont">Female</label>
+                <input type="radio" name="Gender" class="rad" id="other">
+                <label for="other" class="gfont">Other</label>
+                </center>
+
+            </div>
+            <div id="confpref">
+                <h2 id="confinfo" class="boxheadings">Conference Prefrences</h2>
+                <h4 id="ttype" class="commonheadings">Ticket Type <sup class="star"> *</sup></h4>
+                <input type="radio" name="Ticket" class="rad" id="student">
+                <label for="student" class="tfont">Student</label>
+                <input type="radio" name="Ticket" class="rad" id="professional">
+                <label for="professional" class="tfont">Professional</label>
+                <input type="radio" name="Ticket" class="rad" id="vip">
+                <label for="vip" class="tfont">VIP</label>
+                <h4 id="aointerests" class="commonheadings">Areas of Interest <sup class="star"> *</sup></h4>
+                <input type="checkbox"  class="boxes" id="AI"> 
+                <label for="AI" class="interests">AI</label>
+                <br>
+                <input type="checkbox"  class="boxes" id="webdev"> 
+                <label for="webdev" class="interests">Web Development</label>
+                <br>
+                <input type="checkbox"  class="boxes" id="cloud"> 
+                <label for="cloud" class="interests">Cloud</label>
+                <br>
+                <input type="checkbox"  class="boxes" id="cs"> 
+                <label for="cs" class="interests">Cyber Security</label>
+                <br>
+                <input type="checkbox"  class="boxes" id="ds">
+                <label for="ds" class="interests">Data Science</label>
+
+                <h2 id="wselection" class="boxheadings">Workshop Selection </h2> 
+                <h4 id="swork" class="commonheadings">Select Workshop <sup class="star"> *</sup></h4>
+                <select name="workshop" id="selectshop" class="entryboxes">
+                    <option >React Advance Patterns</option>
+                    <option >Robotics</option>
+                    <option >Video Editing</option>
+                    <option >Game designing</option>
+                </select>
+
+
+            </div>
+            </div>
+            <div id="accountinfo">
+                <h2 id="ainfo" class="boxheadings">Account Information</h2>
+                <h4 id="username" class="commonheadings">Username <sup class="star"> *</sup></h4>
+                <input type="text" id="userbox" class="entryboxes" placeholder="Enter your Username">
+                <h4 id="pass" class="commonheadings">Password <sup class="star"> *</sup></h4>
+                <input type="password" id="passbox" class="entryboxes" placeholder="Enter your Password">
+                <h4 id="cpass" class="commonheadings">Confirm Password <sup class="star"> *</sup></h4>
+                <input type="password" id="cpassbox" class="entryboxes" placeholder="Confirm your Password">
+
+            </div>
+            <div id="addinfo">
+                <h2 id="adinfo" class="boxheadings">Additional Information</h2>
+                <h4 id="question">Why do you want to attend this Conference?</h4>
+                <center>
+                <textarea name="" id="answer" cols="50" rows="10" placeholder="Write your answer here..."></textarea>
+                </center>
+                <input type="checkbox"  class="boxes" id="terms"> 
+                <p id="conditions">I agree to the <a href="#" id="tandc">Terms and Conditions</a><sup class="star"> *</sup></p>
+                <center>
+                <button id="submit">Submit Registration</button>
+                </center>
+                
+
+            </div>
+        
+        
+        
+        
+        </form>
+        </center>
+    </div>
+</body>
+</html>
